@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor--primaria: #201e1e;
+    --cor--secundaria:#0EBCBB;
+    --cor--tercearia:#1d0cb8;
+    --cor--hoverRede:#5AF2F2;
+    --fonte-primaria:'Krona One', sans-serif;
+    --fonte-secundaria:'Montserrat', sans-serif;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--cor--primaria);
+    box-sizing: border-box;
+    color: var(--cor--secundaria);
+}
+
+.topMenu{
+    padding: 2% 0% 0% 12.5%;
+    display: flex;
+}
+.top_Menu {
+    color: var(--cor--tercearia);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    transition: .5s;
+    border-radius: 20px;
+}
+.top_MenuItem{
+    color: var(--cor--tercearia);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    transition: .5s;
+    border-radius: 20px;
+}
+.top_MenuItem:hover {
+    background-color: var(--cor--hoverRede);
+    transform: scale(0.96);
+    border-radius: 20px;
+    color: black;
+}
+.firstPage {
+    align-items: center;
+    text-align: justify;
+    display: flex;
+    gap: 82px;
+    justify-content: space-between;
+    padding: 8% 12.5%;
+}
+.textFirstPage {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.textFirstPageTitle {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+    justify-content: space-between;
+    padding: 8% 12.5%;
+    font-family: var(--fonte-primaria);
+    font-size: 2.25rem;
+    color: var(--cor--tercearia);
+}
+.textFirstPageDescription{
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+}
+.textFirstPageLink {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-between;  
+}
+.textFirstPage_Link{
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.textFirstPageLinkSocial
+{
+    border: 2px solid var(--cor--tercearia);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-borer-radius: 8px;
+    -o-border-radius: 8px;
+    color: var(--cor--secundaria);
+    display:flex;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    gap: 16px;
+    justify-content: center;
+    padding: 21.5px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 50%;
+    transition: .2s
+}
+.profileImage {
+    width: 50%;
+    border: 2px solid var(--cor--secundaria);
+    border-radius: 100%
+}
+.baseBoard{
+    background-color: var(--cor--tercearia);
+    padding: 24px;
+}
+.baseBoardText {
+    color: var(--cor--primaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+}
