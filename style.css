@@ -14,17 +14,6 @@
     padding: 0;
 }
 
-
-/* sintaxe media query para All*/
-@media (max-width: 500px) {
-    /* MAX WIDTH = TELA MENORES Q ALGUMA RESOLUÇÃO*/
-    h1 {
-        color:rgb(255, 123, 0);
-    }
-}
-
-/* */
-
 body {
     background-color: var(--cor--primaria);
     box-sizing: border-box;
@@ -149,3 +138,53 @@ body {
     text-align: center;
     font-weight: 400;
 }
+
+/* */
+@media (max-width:px992px){
+    .topmenu { text-align:center; font-size:0.8rem; }
+    .top_Menu { text-align:center; font-size:0.8rem; }
+    .top_MenuItem { text-align:center; font-size:0.8rem; }
+    .top_MenuItem:hover { text-align:center; font-size:0.8rem; }
+    .topmenu { text-align:center; font-size:0.8rem; }
+    .firstPage { text-align:center; font-size:0.8rem; }
+    .textFirstPage { text-align:center; font-size:0.8rem; }
+    .textFirstPage_Link { text-align:center; font-size:0.8rem; }
+    .textFirstPageDescription { text-align:center; font-size:0.8rem; }
+    .textFirstPageLinkSocial { text-align:center; font-size:0.8rem; }
+    .textFirstPageLink { text-align:center; font-size:0.8rem; }
+    .textFirstPageLinkSocial { text-align:center; font-size:0.8rem; }
+    .textFirstPageTitle { text-align:center; font-size:0.8rem; }
+}
+
+@media(max-width:768px){
+    .topmenu { margin:0 auto; text-align:center; }
+    .top_Menu { margin:0 auto; text-align:center; }
+    .top_MenuItem { margin:0 auto; text-align:center; }
+    .top_MenuItem:hover { margin:0 auto; text-align:center; }
+    .topmenu { margin:0 auto; text-align:center; }
+    .firstPage { margin:0 auto; text-align:center; }
+    .textFirstPage { margin:0 auto; text-align:center; }
+    .textFirstPage_Link { margin:0 auto; text-align:center; }
+    .textFirstPageDescription { margin:0 auto; text-align:center; }
+    .textFirstPageLinkSocial { margin:0 auto; text-align:center; }
+    .textFirstPageLink { margin:0 auto; text-align:center; }
+    .textFirstPageLinkSocial { margin:0 auto; text-align:center; }
+    .textFirstPageTitle { margin:0 auto; text-align:center; }
+  }
+@media(max-width:576px){
+    .topmenu { justify-content: flex-start; text-align: center; }
+    .top_Menu { justify-content: flex-start; text-align: center; }
+    .top_MenuItem { justify-content: flex-start; text-align: center; }
+    .top_MenuItem:hover { justify-content: flex-start; text-align: center; }
+    .topmenu { justify-content: flex-start; text-align: center; }
+    .firstPage { justify-content: flex-start; text-align: center; }
+    .textFirstPage { justify-content: flex-start; text-align: center; }
+    .textFirstPage_Link { justify-content: flex-start; text-align: center; }
+    .textFirstPageDescription { justify-content: flex-start; text-align: center; }
+    .textFirstPageLinkSocial { justify-content: flex-start; text-align: center; }
+    .textFirstPageLink { justify-content: flex-start; text-align: center; }
+    .textFirstPageLinkSocial { justify-content: flex-start; text-align: center; }
+    .textFirstPageTitle { justify-content: flex-start; text-align: center; }
+
+  }
+  
